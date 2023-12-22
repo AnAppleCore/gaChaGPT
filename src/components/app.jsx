@@ -492,6 +492,7 @@ export default class App extends Component {
               updateInventory={this.updateInventoryChagpt.bind(this)}
               setView={this.setView}
               inventory={inventoryChagpt}
+              wish={this.wish.bind(this)}
               />
             } else {
               return <WishResults

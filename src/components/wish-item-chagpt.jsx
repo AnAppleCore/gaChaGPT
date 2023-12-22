@@ -14,7 +14,7 @@ export default function WishItemChagpt(props) {
     style={{
       backgroundImage: `url('${TeaTypeImages('./' + src).default}')`,
       backgroundPositionX: itemPercentX+'%',
-      height: '800px',
+      height: '600px',
     }}
     className={`wish-item character mx-1 px-0`}>
       <div
