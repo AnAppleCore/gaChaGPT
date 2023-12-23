@@ -35,7 +35,7 @@ export default class WishResultsChagpt extends Component {
     const { wishes, setView, updateInventory, wish, selectedBanner} = this.props
     const isSingleItem = wishes.length === 1
     return (
-      <div className="wish-results">
+      <div className="wish-results-chagpt">
         <Container style={{ 'maxWidth': '1960px' }}>
           <Row className="vh-5">
             <Col xs="12">

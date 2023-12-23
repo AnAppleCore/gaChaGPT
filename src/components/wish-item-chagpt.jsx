@@ -17,7 +17,7 @@ export default function WishItemChagpt(props) {
         flexDirection: 'column',
         justifyContent: 'space-between',
         height: '700px',
-        'background-color': bgcolor,
+        backgroundColor: bgcolor,
       }}>
 
         <div
@@ -30,7 +30,7 @@ export default function WishItemChagpt(props) {
             classNames={"justify-content-center"}
           />
         </div>
-        <div className="text-center text-wrap" style={{ fontSize: '3.0rem', fontWeight: 'bolder', 'text-shadow': '3px 2px 2px rgb(29, 29, 29)'}}>{assignedLevelChs}</div>
+        <div className="text-center text-wrap" style={{ fontSize: '3.0rem', fontWeight: 'bolder', textShadow: '3px 2px 2px rgb(29, 29, 29)'}}>{assignedLevelChs}</div>
 
         <div style={{
           backgroundImage: `url('${TeaTypeImages('./' + src).default}')`,
@@ -38,8 +38,8 @@ export default function WishItemChagpt(props) {
           backgroundPosition: 'center',
           flex: '1',
         }}></div>
-        <div className="text-center text-wrap" style={{ fontSize: '3.0rem', color: lettercolor, fontWeight: 'bold', 'text-shadow': '0px 0px 0px rgb(29, 29, 29)'}}>{teaName}</div>
-        <div className="text-center text-wrap" style={{ fontSize: '3.0rem', color: lettercolor, fontWeight: 'bold', 'text-shadow': '0px 0px 0px rgb(29, 29, 29)', letterSpacing: '15px'}}>{integerToChineseString(id)}</div>
+        <div className="text-center text-wrap" style={{ fontSize: '3.0rem', color: lettercolor, fontWeight: 'bold', textShadow: '0px 0px 0px rgb(29, 29, 29)'}}>{teaName}</div>
+        <div className="text-center text-wrap" style={{ fontSize: '3.0rem', color: lettercolor, fontWeight: 'bold', textShadow: '0px 0px 0px rgb(29, 29, 29)', letterSpacing: '15px'}}>{integerToChineseString(id)}</div>
     </Col>
 
     // <Col
